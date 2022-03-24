@@ -62,10 +62,10 @@ def on_press(key):
             pyautogui.click(690, 623)
             pyautogui.moveTo(1259, 857)
         elif key.char == ";":           #rejects with message from other app
-            os.chdir("C:\\Users\\ercolani\\OneDrive - TomTom\\Desktop")
+            os.chdir("C:\\Users\\ercolani\\Desktop")
             os.system("rejector.pyw")
         elif key.char == ".":           #rejects with message from other app
-            os.chdir("C:\\Users\\ercolani\\OneDrive - TomTom\\Desktop")
+            os.chdir("C:\\Users\\ercolani\\Desktop")
             os.system("scheduler.pyw")
             
 ##            pyautogui.moveTo(1123, 601)
@@ -167,7 +167,7 @@ def descript ():
         window.columnconfigure(0, weight=1)
         window.columnconfigure(1, weight=1)
 
-infolbl = Label(root, text="TomTom", font=('helvetica 8 bold'), foreground='#555', background='#fff')
+infolbl = Label(root, text="XXX", font=('helvetica 8 bold'), foreground='#555', background='#fff')
 infolbl.grid(row=0, sticky='W', padx=(10, 0))
 Separator(root, orient="horizontal")
 Separator().grid(row=0, column= 0, pady= (20, 0), sticky=EW, columnspan=2)
